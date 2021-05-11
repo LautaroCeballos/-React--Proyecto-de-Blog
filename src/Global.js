@@ -1,4 +1,4 @@
 var Global = {
-    urlApi: 'http://localhost:3900/api/'
+    urlApi: 'https://blog-database-ceballos.herokuapp.com/api/'
 }
 export default Global;
