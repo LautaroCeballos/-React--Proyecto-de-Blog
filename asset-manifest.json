@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/-React--Proyecto-de-Blog%20/static/css/main.396c59ee.chunk.css",
+    "main.js": "/-React--Proyecto-de-Blog%20/static/js/main.6f9d402e.chunk.js",
+    "main.js.map": "/-React--Proyecto-de-Blog%20/static/js/main.6f9d402e.chunk.js.map",
+    "runtime-main.js": "/-React--Proyecto-de-Blog%20/static/js/runtime-main.9449ad39.js",
+    "runtime-main.js.map": "/-React--Proyecto-de-Blog%20/static/js/runtime-main.9449ad39.js.map",
+    "static/js/2.d17ad459.chunk.js": "/-React--Proyecto-de-Blog%20/static/js/2.d17ad459.chunk.js",
+    "static/js/2.d17ad459.chunk.js.map": "/-React--Proyecto-de-Blog%20/static/js/2.d17ad459.chunk.js.map",
+    "index.html": "/-React--Proyecto-de-Blog%20/index.html",
+    "precache-manifest.7b6efc0c3e720dc00bed05e467e3c137.js": "/-React--Proyecto-de-Blog%20/precache-manifest.7b6efc0c3e720dc00bed05e467e3c137.js",
+    "service-worker.js": "/-React--Proyecto-de-Blog%20/service-worker.js",
+    "static/css/main.396c59ee.chunk.css.map": "/-React--Proyecto-de-Blog%20/static/css/main.396c59ee.chunk.css.map",
+    "static/js/2.d17ad459.chunk.js.LICENSE.txt": "/-React--Proyecto-de-Blog%20/static/js/2.d17ad459.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/-React--Proyecto-de-Blog%20/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9449ad39.js",
+    "static/js/2.d17ad459.chunk.js",
+    "static/css/main.396c59ee.chunk.css",
+    "static/js/main.6f9d402e.chunk.js"
+  ]
+}
