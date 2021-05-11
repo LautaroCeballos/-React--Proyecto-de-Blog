@@ -1,4 +1,5 @@
 {
+  "homepage":"https://lautaroceballos.github.io/-React--Proyecto-de-Blog/",
   "name": "proyectoreact",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +18,8 @@
     "sweetalert": "^2.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -8,6 +8,8 @@ import swal from 'sweetalert';
 import Sidebar from './Sidebar';
 import imgDefault from '../assets/images/default.jpg';
 
+
+
 class Article extends Component {
     urlApi = Global.urlApi;
 
