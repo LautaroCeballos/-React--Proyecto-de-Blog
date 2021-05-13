@@ -30,16 +30,16 @@ class Router extends Component {
                 <Switch>
                     <Route exact path="/" component={Home} />
 
-                    <Route exact path="/home" component={Home} />
-                    <Route exact path="/blog" component={Blog} />
-                    <Route exact path="/blog/articulo/:id" component={Article} />
-                    <Route exact path="/blog/crear" component={CreateArticle} />
-                    <Route exact path="/blog/editar/:id" component={EditArticle} />
-                    <Route exact path="/formulario" component={Formulario} />
-                    <Route exact path="/blog/busqueda/:search" component={Search} />
+                    <Route path="/home" component={Home} />
+                    <Route path="/blog" component={Blog} />
+                    <Route path="/blog/articulo/:id" component={Article} />
+                    <Route path="/blog/crear" component={CreateArticle} />
+                    <Route path="/blog/editar/:id" component={EditArticle} />
+                    <Route path="/formulario" component={Formulario} />
+                    <Route path="/blog/busqueda/:search" component={Search} />
 
                     {/* Asi se hace una redireccion */}
-                    <Route exact path="/redirect/:search" render={
+                    <Route path="/redirect/:search" render={
                         (props) => {
                             var search = props.match.params.search;
                             return(
@@ -49,16 +49,16 @@ class Router extends Component {
                     }/>
 
                     {/* Rutas de prueba */}
-                    <Route exact path="/peliculas" component={Peliculas} />
-                    <Route exact path="/segunda-ruta" component={MiComponente} />
+                    <Route path="/peliculas" component={Peliculas} />
+                    <Route path="/segunda-ruta" component={MiComponente} />
 
                     {/* Rutas sin Componentes */}
-                    <Route exact path="/pagina-1" render={() => (
+                    <Route path="/pagina-1" render={() => (
                         <h1>Hola mundo desde la ruta: Pagina 1</h1>
                     )} />
 
                     {/* Parametros en la URL */}
-                    <Route exact path="/pruebas/:nombre/:apellidos?" render={(props) => {
+                    <Route path="/pruebas/:nombre/:apellidos?" render={(props) => {
                         var nombre = props.match.params.nombre;
                         var apellidos = props.match.params.apellidos;
 
