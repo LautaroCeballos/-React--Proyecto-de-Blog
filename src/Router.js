@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //Componente de Rutas
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter, Link, Switch, Redirect } from 'react-router-dom';
 
 //Componentes de pruebas
 import MiComponente from './components/MiComponente';
@@ -28,18 +28,18 @@ class Router extends Component {
                 
                 {/*Configurar rutas y paginas*/}
                 <Switch>
-                    <Route exact path="/" component={Home} />
+                    <Link exact path="/" component={Home} />
 
-                    <Route exact path="/home" component={Home} />
-                    <Route exact path="/blog" component={Blog} />
-                    <Route exact path="/blog/articulo/:id" component={Article} />
-                    <Route exact path="/blog/crear" component={CreateArticle} />
-                    <Route exact path="/blog/editar/:id" component={EditArticle} />
-                    <Route exact path="/formulario" component={Formulario} />
-                    <Route exact path="/blog/busqueda/:search" component={Search} />
+                    <Link exact path="/home" component={Home} />
+                    <Link exact path="/blog" component={Blog} />
+                    <Link exact path="/blog/articulo/:id" component={Article} />
+                    <Link exact path="/blog/crear" component={CreateArticle} />
+                    <Link exact path="/blog/editar/:id" component={EditArticle} />
+                    <Link exact path="/formulario" component={Formulario} />
+                    <Link exact path="/blog/busqueda/:search" component={Search} />
 
                     {/* Asi se hace una redireccion */}
-                    <Route exact path="/redirect/:search" render={
+                    <Link exact path="/redirect/:search" render={
                         (props) => {
                             var search = props.match.params.search;
                             return(
@@ -49,16 +49,16 @@ class Router extends Component {
                     }/>
 
                     {/* Rutas de prueba */}
-                    <Route exact path="/peliculas" component={Peliculas} />
-                    <Route exact path="/segunda-ruta" component={MiComponente} />
+                    <Link exact path="/peliculas" component={Peliculas} />
+                    <Link exact path="/segunda-ruta" component={MiComponente} />
 
                     {/* Rutas sin Componentes */}
-                    <Route exact path="/pagina-1" render={() => (
+                    <Link exact path="/pagina-1" render={() => (
                         <h1>Hola mundo desde la ruta: Pagina 1</h1>
                     )} />
 
                     {/* Parametros en la URL */}
-                    <Route exact path="/pruebas/:nombre/:apellidos?" render={(props) => {
+                    <Link exact path="/pruebas/:nombre/:apellidos?" render={(props) => {
                         var nombre = props.match.params.nombre;
                         var apellidos = props.match.params.apellidos;
 
@@ -75,7 +75,7 @@ class Router extends Component {
                         );
                     }} />
                    
-                    <Route component={Error} />
+                    <Link component={Error} />
 
                 </Switch>
 
