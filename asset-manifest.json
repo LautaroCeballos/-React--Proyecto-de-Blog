@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.396c59ee.chunk.css",
-    "main.js": "/static/js/main.d2fc5486.chunk.js",
-    "main.js.map": "/static/js/main.d2fc5486.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9df780b7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9df780b7.js.map",
-    "static/js/2.d17ad459.chunk.js": "/static/js/2.d17ad459.chunk.js",
-    "static/js/2.d17ad459.chunk.js.map": "/static/js/2.d17ad459.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7f40889a9d1165912177b7c9b1661aeb.js": "/precache-manifest.7f40889a9d1165912177b7c9b1661aeb.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.396c59ee.chunk.css.map": "/static/css/main.396c59ee.chunk.css.map",
-    "static/js/2.d17ad459.chunk.js.LICENSE.txt": "/static/js/2.d17ad459.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/-React--Proyecto-de-Blog/static/css/main.396c59ee.chunk.css",
+    "main.js": "/-React--Proyecto-de-Blog/static/js/main.d2933134.chunk.js",
+    "main.js.map": "/-React--Proyecto-de-Blog/static/js/main.d2933134.chunk.js.map",
+    "runtime-main.js": "/-React--Proyecto-de-Blog/static/js/runtime-main.3e454c13.js",
+    "runtime-main.js.map": "/-React--Proyecto-de-Blog/static/js/runtime-main.3e454c13.js.map",
+    "static/js/2.d17ad459.chunk.js": "/-React--Proyecto-de-Blog/static/js/2.d17ad459.chunk.js",
+    "static/js/2.d17ad459.chunk.js.map": "/-React--Proyecto-de-Blog/static/js/2.d17ad459.chunk.js.map",
+    "index.html": "/-React--Proyecto-de-Blog/index.html",
+    "precache-manifest.76e9791aa2bbf961b1cc0b80ca1d90f0.js": "/-React--Proyecto-de-Blog/precache-manifest.76e9791aa2bbf961b1cc0b80ca1d90f0.js",
+    "service-worker.js": "/-React--Proyecto-de-Blog/service-worker.js",
+    "static/css/main.396c59ee.chunk.css.map": "/-React--Proyecto-de-Blog/static/css/main.396c59ee.chunk.css.map",
+    "static/js/2.d17ad459.chunk.js.LICENSE.txt": "/-React--Proyecto-de-Blog/static/js/2.d17ad459.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/-React--Proyecto-de-Blog/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9df780b7.js",
+    "static/js/runtime-main.3e454c13.js",
     "static/js/2.d17ad459.chunk.js",
     "static/css/main.396c59ee.chunk.css",
-    "static/js/main.d2fc5486.chunk.js"
+    "static/js/main.d2933134.chunk.js"
   ]
 }
